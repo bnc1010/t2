@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <display-name>UploadServlet</display-name>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>Servlet.UploadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/Upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>Servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>ChangePwdServlet</display-name>
+        <servlet-name>ChangePwdServlet</servlet-name>
+        <servlet-class>Servlet.ChangePwdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangePwdServlet</servlet-name>
+        <url-pattern>/ChangePwdServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>EmailForFindServlet</display-name>
+        <servlet-name>EmailForFindServlet</servlet-name>
+        <servlet-class>Servlet.EmailForFindServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmailForFindServlet</servlet-name>
+        <url-pattern>/EmailForFindServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>FindPwdServlet</display-name>
+        <servlet-name>FindPwdServlet</servlet-name>
+        <servlet-class>Servlet.FindPwdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FindPwdServlet</servlet-name>
+        <url-pattern>/FindPwdServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>RegisterServlet</display-name>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>Servlet.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>EmailForRegisterServlet</display-name>
+        <servlet-name>EmailForRegisterServlet</servlet-name>
+        <servlet-class>Servlet.EmailForRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmailForRegisterServlet</servlet-name>
+        <url-pattern>/EmailForRegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>Servlet.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>UploadBlog</display-name>
+        <servlet-name>UploadBlog</servlet-name>
+        <servlet-class>Servlet.UploadBlog</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadBlog</servlet-name>
+        <url-pattern>/UploadBlog</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>DeleteBlog</display-name>
+        <servlet-name>DeleteBlog</servlet-name>
+        <servlet-class>Servlet.DeleteBlog</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteBlog</servlet-name>
+        <url-pattern>/DeleteBlog</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>DeleteFile</display-name>
+        <servlet-name>DeleteFile</servlet-name>
+        <servlet-class>Servlet.DeleteFile</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteFile</servlet-name>
+        <url-pattern>/DeleteFile</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <display-name>ad_ResetPwd</display-name>
+        <servlet-name>ad_ResetPwd</servlet-name>
+        <servlet-class>Servlet.ad_ResetPwd</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ad_ResetPwd</servlet-name>
+        <url-pattern>/ad_ResetPwd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>ChangeUserSta</display-name>
+        <servlet-name>ChangeUserSta</servlet-name>
+        <servlet-class>Servlet.ChangeUserSta</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangeUserSta</servlet-name>
+        <url-pattern>/ChangeUserSta</url-pattern>
+    </servlet-mapping>
+
+</web-app>
