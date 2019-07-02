@@ -15,7 +15,7 @@ public class UserServer {
 
     public boolean InsertUser(UserBean user)throws Exception {
         dbBean.openConnection();
-        sql="Insert into users(name,pwd,email) values(?,?,?,?)";
+        sql="Insert into users(name,pwd,email,last_t) values(?,?,?,?)";
         Object [] paras = new Object[8];
         paras[0] = user.getUserName();
         paras[1] = commonServer.getMd5Str(user.getPwd());

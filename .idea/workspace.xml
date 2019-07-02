@@ -4,10 +4,1127 @@
     <artifacts-to-build>
       <artifact name="t1:war exploded" />
       <artifact name="t1:war exploded" />
+      <artifact name="t1:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76d0732b-12c6-4684-b0bb-53d83bd8131c" name="Default" comment="11" />
+    <list default="true" id="76d0732b-12c6-4684-b0bb-53d83bd8131c" name="Default" comment="11">
+      <change afterPath="$PROJECT_DIR$/src/Servlet/CreateFolderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Servlet/DeleteFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main/css/datas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/t1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/t1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jars.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Bean/BlogBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Bean/DbBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Bean/EmailBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Bean/FileBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Bean/UserBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Server/AdminServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Server/CommonServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Server/FileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Server/UserServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/ChangePwdServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/ChangeUserSta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/CheckValidServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/DeleteBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/DeleteFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/EmailForFindServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/EmailForRegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/FindPwdServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/UploadBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/UploadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/ad_ChangeEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/classes/Servlet/ad_ResetPwd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/annotations-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/catalina-ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/catalina-ha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/catalina-storeconfig.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/catalina-tribes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/catalina.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/commons-fileupload-1.4-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/commons-fileupload-1.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/commons-fileupload-1.4-test-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/commons-fileupload-1.4-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/ecj-4.6.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/el-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jasper-el.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jasper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jaspic-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.activation-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jaxb-core-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jaxb-impl-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-coyote.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-dbcp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-i18n-es.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-i18n-fr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-i18n-ja.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-i18n-ru.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-jdbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-jni.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-util-scan.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/tomcat-websocket.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/lib/websocket-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/admin-info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/article-add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/article-detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/article-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/column-danye-detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/danye-detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/danye-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/email-write.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/email.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/file-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/menu-add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/menu-add2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/menu1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/menu2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/rbac-admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/rbac-user-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/system.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/user-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/admin/index/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/commonstyle/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/js/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/js/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/change_pwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/find_pwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/find_pwd_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/formStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/js1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/js2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/register_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/login/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/3dfirework/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/css/reader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/editor.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/js/create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/js/self.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/comment/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/comment/continuecomment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/dialog/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/dialog/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/display/fullscreen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/display/fullscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/display/panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/display/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/display/rulers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/edit/closebrackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/edit/closetag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/edit/continuelist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/edit/matchbrackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/edit/matchtags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/edit/trailingspace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/brace-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/comment-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/foldcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/foldgutter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/foldgutter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/indent-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/markdown-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/fold/xml-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/css-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/html-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/javascript-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/sql-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/hint/xml-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/coffeescript-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/css-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/javascript-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/json-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/lint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/lint/yaml-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/merge/merge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/merge/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/mode/loadmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/mode/multiplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/mode/multiplex_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/mode/overlay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/mode/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/runmode/colorize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/runmode/runmode-standalone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/runmode/runmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/runmode/runmode.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/scroll/annotatescrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/scroll/scrollpastend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/scroll/simplescrollbars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/scroll/simplescrollbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/search/match-highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/search/matchesonscrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/search/matchesonscrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/search/searchcursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/selection/active-line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/selection/mark-selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/selection/selection-pointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/tern/tern.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/tern/tern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/tern/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addon/wrap/hardwrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/addons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/codemirror.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/codemirror.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/lib/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/lib/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/apl/apl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/apl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/asterisk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/clike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/clike/scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/clojure/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/clojure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/cobol/cobol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/cobol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/coffeescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/commonlisp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/less_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/scss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/scss_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/css/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/cypher/cypher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/cypher/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/d/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/d/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dart/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/diff/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/diff/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/django/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/django/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dockerfile/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dockerfile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dtd/dtd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dtd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dylan/dylan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/dylan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ebnf/ebnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ebnf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ecl/ecl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ecl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/eiffel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/erlang/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/erlang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/forth/forth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/forth/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/fortran/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/fortran/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gas/gas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gfm/gfm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gfm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gfm/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/gherkin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/go/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/go/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/groovy/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/groovy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haml/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haskell/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haskell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haxe/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/haxe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/http/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/http/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/idl/idl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/idl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/jade/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/jade/jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/javascript/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/javascript/typescript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/jinja2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/julia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/julia/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/kotlin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/livescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/livescript/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/lua/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/lua/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/markdown/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/markdown/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/markdown/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/mirc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/mirc/mirc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/mllike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/mllike/mllike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/modelica/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/modelica/modelica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/nginx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/nginx/nginx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ntriples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/octave/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/octave/octave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/pascal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/pascal/pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/pegjs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/perl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/perl/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/php/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/php/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/php/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/pig/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/pig/pig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/properties/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/properties/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/puppet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/puppet/puppet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/python/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/python/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/q/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/q/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/r/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/r/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rpm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rpm/rpm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rst/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rst/rst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ruby/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ruby/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/ruby/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rust/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/rust/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sass/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sass/sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/scheme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/scheme/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/shell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/shell/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/shell/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sieve/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sieve/sieve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/slim/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/slim/slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/slim/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/smalltalk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/smarty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/smarty/smarty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/smartymixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/solr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/solr/solr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/soy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/soy/soy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sparql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sparql/sparql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/spreadsheet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/spreadsheet/spreadsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/sql/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/stex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/stex/stex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/stex/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/stylus/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/stylus/stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tcl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tcl/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/textile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/textile/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/textile/textile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tiki/tiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tiki/tiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/toml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/toml/toml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tornado/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/tornado/tornado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/turtle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/turtle/turtle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/vb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/vb/vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/vbscript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/velocity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/velocity/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/verilog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/verilog/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/verilog/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/xml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/xml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/xml/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/xquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/xquery/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/xquery/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/yaml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/yaml/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/z80/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/mode/z80/z80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/modes.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/3024-day.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/3024-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/ambiance-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/ambiance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/base16-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/base16-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/blackboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/cobalt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/colorforth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/eclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/elegant.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/erlang-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/lesser-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/mbo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/mdn-like.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/midnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/neat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/neo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/pastel-on-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/rubyblue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/solarized.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/the-matrix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/twilight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/vibrant-ink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/xq-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/xq-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/codemirror/theme/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/flowchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/jquery.flowchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/marked.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/prettify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/sequence-diagram.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/lib/underscore.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/myarticals.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/code-block-dialog/code-block-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/emoji-dialog/emoji-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/emoji-dialog/emoji.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/goto-line-dialog/goto-line-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/help-dialog/help-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/help-dialog/help.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/html-entities-dialog/html-entities-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/html-entities-dialog/html-entities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/image-dialog/image-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/link-dialog/link-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/plugin-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/preformatted-text-dialog/preformatted-text-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/reference-link-dialog/reference-link-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/table-dialog/table-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/plugins/test-plugin/test-plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/blog/reader.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/datas/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/datas/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/datas/message.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/datas/self.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/datas/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/bk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/bk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/down-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/pink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/tg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/img/weather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/imputWords/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/imputWords/js/CSSPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/imputWords/js/EasePack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/imputWords/js/TweenLite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/css/player.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/fonts/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/bk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/cd_tou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/songs/侧脸.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/songs/借我.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/songs/出山.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/songs/打上花火.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/images/songs/起风了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/js/player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/js/utill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/songs/侧脸.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/songs/借我.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/songs/出山.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/songs/打上花火.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/musicplayer/songs/起风了.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/css/htmleaf-demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/dist/easySlider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/dist/easySlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/dist/jquery.boilerplate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/dist/jquery.boilerplate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/bk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/img/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/pictureview/js/jquery-2.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/video/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/video/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/video/js/j.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/video/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/video/videos/p1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/videott/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/videott/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/videott/js/j.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/main/videott/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/css/editormd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/css/editormd.logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/css/editormd.logo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/css/editormd.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/css/editormd.preview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/css/editormd.preview.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/editormd.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Bold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Bold-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-BoldItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Italic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Italic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Light-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Light-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-LightItalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/fonts/OpenSans-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/scripts/linenumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/scripts/prettify/Apache-License-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/scripts/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/scripts/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/styles/jsdoc-default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/styles/prettify-jsdoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/docs/styles/prettify-tomorrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/editormd.amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/editormd.amd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/editormd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/editormd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/editormd-logo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/editormd-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/editormd-logo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/editormd-logo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/loading@3x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-favicon-16x16.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-favicon-24x24.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-favicon-32x32.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-favicon-48x48.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-favicon-64x64.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-240x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-24x24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-320x320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-64x64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/editormd-logo-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/images/logos/vi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/languages/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/languages/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.codemirror.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.dialog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.logo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.preview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.preview.themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.tab.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/editormd.themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/github-markdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/lib/prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/lib/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/scss/prettify.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/src/editormd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/bootstrap-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/codemirror-searchbox-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/codemirror-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/js/searchbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/katex-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/marked-@at-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/marked-emoji-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/marked-heading-link-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/marked-todo-list-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/qunit/qunit-1.16.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/md_editor/tests/qunit/qunit-1.16.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/avatar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/comment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/css3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/email.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/css/var.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/fonts/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/images/l-line-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/images/l-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/images/login/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/images/login/login_line.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/images/login/yzm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/js/module/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/js/module/formate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/js/module/tool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/laydate/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/laydate/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/loading-1-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/css/modules/layer/default/loading-4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/dest/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/chord.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/eventRiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/force.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/gauge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/k.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/radar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/scatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/treemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/venn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/chart/wordCloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/echarts-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/echarts/echarts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/anchor/anchor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/attachment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/attachment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/attachment/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/background/background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/background/background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/background/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/background/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/background/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/chart.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/charts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/emotion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/emotion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/emotion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/gmap/gmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/help/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/help/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/help/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/image/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/link/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/map/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/map/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/music/music.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/music/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/music/music.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/preview/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/spechars/spechars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/spechars/spechars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/table/dragicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/table/edittable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/table/edittable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/table/edittable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/table/edittd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/table/edittip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/images/pre0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/images/pre1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/images/pre2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/images/pre3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/images/pre4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/template/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/webapp/webapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/addimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/deletedisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/deleteenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/listbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/en/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/zh-cn/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/php/Uploader.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/php/action_crawler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/php/action_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/php/action_upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/php/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/php/controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/css/ueditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/dialogbase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/button-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/charts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/cursor_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/cursor_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/filescan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/highlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/icons-all.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/loaderror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/lock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/sortable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/sparator_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/videologo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/word.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/default/images/wordpaste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/themes/iframe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/video-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/video-js.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/video.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/video-js/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/ueditor.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/ueditor.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/ueditor.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/ueditor.parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/static/admin/lib/ueditor/ueditor.parse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/t1_war_exploded/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Bean/DbBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Bean/DbBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Bean/FileBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Bean/FileBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Server/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Server/FileServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Server/UserServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Server/UserServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/ChangePwdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/ChangePwdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/DeleteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/DeleteFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForFindServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForFindServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForRegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForRegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/FindPwdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/FindPwdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/UploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/UploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bean/DbBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/DbBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bean/FileBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/FileBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/FileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/UserServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/UserServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/ChangePwdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/ChangePwdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/DeleteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/DeleteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/EmailForFindServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/EmailForFindServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/EmailForRegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/EmailForRegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/FindPwdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/FindPwdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/UploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/t1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/change_pwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login/change_pwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/find_pwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login/find_pwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/find_pwd_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/formStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/js1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/js2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/register_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/login/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/datas/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/datas/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/datas/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/datas/self.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,19 +1133,104 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main/datas/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="245" selection-start-line="245" selection-end-line="245" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servlet/UploadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2923#2953#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/fileupload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="86" column="41" selection-start-line="83" selection-start-column="8" selection-end-line="86" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main/css/datas.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1583">
+              <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Server/FileServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,12 +1256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/main/blog/myarticals.jsp" />
-        <option value="$PROJECT_DIR$/web/main/blog/index.jsp" />
-        <option value="$PROJECT_DIR$/web/main/datas/self.css" />
-        <option value="$PROJECT_DIR$/web/main/blog/create.jsp" />
-        <option value="$PROJECT_DIR$/web/main/index.jsp" />
-        <option value="$PROJECT_DIR$/web/main/blog/editor.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/article-add.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/column-danye-detail.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/danye-detail.jsp" />
@@ -85,10 +1281,8 @@
         <option value="$PROJECT_DIR$/web/static/admin/js/common.js" />
         <option value="$PROJECT_DIR$/src/Servlet/DeleteBlog.java" />
         <option value="$PROJECT_DIR$/src/Bean/UserBean.java" />
-        <option value="$PROJECT_DIR$/src/Servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/Server/UserServer.java" />
         <option value="$PROJECT_DIR$/src/Servlet/ChangeUserSta.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/admin/index/user-list.jsp" />
         <option value="$PROJECT_DIR$/src/Servlet/FindPwdServlet.java" />
         <option value="$PROJECT_DIR$/src/Servlet/ChangePwdServlet.java" />
@@ -97,14 +1291,22 @@
         <option value="$PROJECT_DIR$/web/admin/index/article-list.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/index.jsp" />
         <option value="$PROJECT_DIR$/src/Server/CommonServer.java" />
-        <option value="$PROJECT_DIR$/src/Servlet/UploadServlet.java" />
         <option value="$PROJECT_DIR$/src/Bean/FileBean.java" />
         <option value="$PROJECT_DIR$/src/Server/AdminServer.java" />
-        <option value="$PROJECT_DIR$/src/Server/FileServer.java" />
-        <option value="$PROJECT_DIR$/src/Servlet/DeleteFile.java" />
         <option value="$PROJECT_DIR$/web/admin/index/file-list.jsp" />
-        <option value="$PROJECT_DIR$/web/main/datas/index.jsp" />
+        <option value="$PROJECT_DIR$/web/login/index.jsp" />
         <option value="$PROJECT_DIR$/src/Bean/DbBean.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/Servlet/CreateFolderServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/js/fileupload.js" />
+        <option value="$PROJECT_DIR$/src/Servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/Servlet/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/Server/FileServer.java" />
+        <option value="$PROJECT_DIR$/web/main/css/datas.css" />
+        <option value="$PROJECT_DIR$/src/Servlet/DeleteFile.java" />
+        <option value="$PROJECT_DIR$/web/main/datas/index.jsp" />
+        <option value="$PROJECT_DIR$/src/Servlet/DeleteFolder.java" />
       </list>
     </option>
   </component>
@@ -129,14 +1331,74 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="t1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jars" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/lib-za/jars" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -265,6 +1527,7 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="t1:war exploded" />
           <artifact name="t1:war exploded" />
+          <artifact name="t1:war exploded" />
         </option>
       </method>
     </configuration>
@@ -334,7 +1597,18 @@
       <workItem from="1560086824592" duration="319000" />
       <workItem from="1561291671284" duration="615000" />
       <workItem from="1561292307421" duration="1697000" />
-      <workItem from="1561295091587" duration="874000" />
+      <workItem from="1561295091587" duration="1882000" />
+      <workItem from="1561383353408" duration="4615000" />
+      <workItem from="1561633741496" duration="171000" />
+      <workItem from="1561767657242" duration="529000" />
+      <workItem from="1561770335373" duration="4353000" />
+      <workItem from="1561857746360" duration="2800000" />
+      <workItem from="1561891681487" duration="5460000" />
+      <workItem from="1561942260353" duration="7197000" />
+      <workItem from="1561976321596" duration="5139000" />
+      <workItem from="1562028032732" duration="11753000" />
+      <workItem from="1562040724812" duration="4586000" />
+      <workItem from="1562047320060" duration="13865000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1561295186844</created>
@@ -357,26 +1631,34 @@
       <option name="project" value="LOCAL" />
       <updated>1561296158323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="11">
+      <created>1561296223200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561296223200</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191114000" />
+    <option name="totallyTimeSpent" value="252590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7839831" visible="true" weight="0.1315229" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7669903" visible="true" weight="0.14323749" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="5" sideWeight="0.21601686" side_tool="true" visible="true" weight="0.1315229" />
+      <window_info active="true" id="Web" order="5" sideWeight="0.23300971" side_tool="true" visible="true" weight="0.14323749" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3487882" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3487882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,7 +1668,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32952183" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -409,56 +1691,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/admin/index/admin-info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2581">
-          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/BlogBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/main/blog/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/admin/js/module/formate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/EmailBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index/danye-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1187">
-          <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index/article-detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2726">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/NumberFormatException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -469,13 +1701,6 @@
     <entry file="file://$PROJECT_DIR$/web/static/admin/css/column.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/admin/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1518" column="12" selection-start-line="1518" selection-start-column="12" selection-end-line="1518" selection-end-column="12" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/admin/css/css3.css">
@@ -548,13 +1773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlet/ChangeUserSta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -583,13 +1801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="146" column="21" lean-forward="true" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/index/email.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-669">
@@ -601,20 +1812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index/article-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="15" lean-forward="true" selection-end-line="147" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -649,20 +1846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/FileServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/admin/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
@@ -680,46 +1863,11 @@
     <entry file="file://$PROJECT_DIR$/web/web.config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main/datas/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/UploadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="85" column="60" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/main/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/DbBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/t1.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/FileBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="58" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/index/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -732,6 +1880,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main/datas/js.js" />
+    <entry file="file://$PROJECT_DIR$/web/admin/index/article-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/mapTojson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/FileBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/DbBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2923#2953#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/CreateFolderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/fileupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/admin/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="1531" column="21" selection-start-line="1531" selection-start-column="21" selection-end-line="1531" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main/css/datas.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1583">
+          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/FileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="86" column="41" selection-start-line="83" selection-start-column="8" selection-end-line="86" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main/datas/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -801,7 +2099,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-fileupload-1</last-edited>
+          <last-edited>jars</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -11,31 +11,39 @@
 <head>
     <title>找回密码</title>
     <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="formStyle.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <%
-    user = (UserBean) session.getAttribute("User");
+    user = (UserBean) session.getAttribute("FUser");
 %>
-<div class="login" style="width: 300px;height: 250px;">
-    <h1>找回密码</h1>
-    <form method="post" action="/ChangePwdServlet" style="height: 225px">
-        <input type="text" name="user" value=<%=user.getUserName()%> readonly="readonly"/>
-        <input type="password" name="pwd1" placeholder="新密码" required="required" />
-        <input type="password" name="pwd2" placeholder="重复密码" required="required" />
-        <input type="submit" class="btn btn-primary btn-block btn-large" value="确定">
-    </form>
-        <%
-            String status = (String) session.getAttribute("change_status");
-            if (status != null){%>
-                <h4><%=status%></h4>
-        <%
-            }
-        %>
-</div>
 <div style="width: 70px;">
-    <a href="../" style="text-decoration: none;"><h1>返回</h1></a>
+    <a href="../" class="back"><h1>返回</h1></a>
 </div>
-<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>
+<div class="login_wrap">
+    <h3>找回密码</h3>
+    <div class="login_border">
+        <div class="input">
+            <form id="form_for_login">
+                <ul class="items">
+                    <li>
+                        <input class="input_style" type="text" id="user" name="user" value=<%=user.getUserName()%> readonly="readonly"/>
+                    </li>
+                    <li>
+                        <input class="input_style" type="password" id="pwd1" name="pwd1" placeholder="新密码"/>
+                    </li>
+                    <li>
+                        <input class="input_style" type="password" id="pwd2" name="pwd2" placeholder="重复密码"/>
+                    </li>
+                    <li>
+                        <input class="btn btn-primary" type="button" id="btn-submit" value="确定">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../js/layer/layer.js"></script>
+<script src="../js/changepwd.js"></script>
 </html>

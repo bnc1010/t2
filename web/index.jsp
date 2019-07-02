@@ -17,8 +17,6 @@ To change this template use File | Settings | File Templates.
 <title>bnc-site</title>
 </head>
 
-<%--body style="background: center fixed no-repeat;background-size: cover;min-height:100vh; background-image:url(images/jd.jpg);"--%>
-
 <body class="bk">
     <% session.setAttribute("log_status", null);%>
     <% session.setAttribute("find_status", null);%>

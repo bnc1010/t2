@@ -11,34 +11,46 @@
 <head>
     <title>注册</title>
     <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="formStyle.css" type="text/css" rel="stylesheet">
-    <script language="JavaScript" src="js1.js"></script>
 </head>
 <body>
-
-<div class="login" style="width: 300px;height: 300px;">
-    <h1>注册</h1>
-    <form method="post" action="/RegisterServlet" style="height: 272px">
-        <input type="text" name="user" placeholder="用户名" required="required" />
-        <input type="password" name="pwd1" placeholder="密码" required="required" />
-        <input type="password" name="pwd2" placeholder="重复密码" required="required" />
-        <input type="text" id="ee" name="email" placeholder="邮箱" required="required" />
-        <input type="text" name="num" placeholder="邮箱验证码" required="required" />
-        <input type="button" value="获取验证码" onclick="settime(this)" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">注册</button>
-    </form>
-    <br/>
-    <%
-        String status = (String)session.getAttribute("re_status");
-        if (status != null){%>
-        <h4><%=status%></h4>
-        <%
-            }
-        %>
-</div>
-<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>
 <div style="width: 70px;">
-    <a href="../" style="text-decoration: none;"><h1>返回</h1></a>
+    <a href="../" class="back"><h1>返回</h1></a>
 </div>
+<div class="login_wrap">
+    <h3>注册</h3>
+    <div class="login_border">
+        <div class="input">
+            <form id="form_for_login" style="height: 272px">
+                <ul class="items">
+                    <li>
+                        <input class="input_style" type="text" id="user" name="user" placeholder="用户名" />
+                    </li>
+                    <li>
+                        <input class="input_style" type="password" id="pwd1" name="pwd1" placeholder="密码" />
+                    </li>
+                    <li>
+                        <input class="input_style" type="password" id="pwd2" name="pwd2" placeholder="重复密码" />
+                    </li>
+                    <li>
+                        <input class="input_style" type="text" id="ee" name="email" placeholder="邮箱"/>
+                    </li>
+                    <li>
+                        <input class="input_style" type="text" id="num" name="num" placeholder="邮箱验证码" />
+                    </li>
+                    <li>
+                        <input type="button" class="btn btn-primary" value="获取验证码" onclick="settime(this)" />
+                    </li>
+                    <li>
+                        <button id="btn-submit" type="button" class="btn btn-primary">注册</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+
 </body>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../js/layer/layer.js"></script>
+<script src="../js/register.js"></script>
 </html>

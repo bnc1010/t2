@@ -3,6 +3,7 @@ package Servlet;
 import Bean.FileBean;
 import Bean.UserBean;
 import Server.FileServer;
+import Server.mapTojson;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -11,19 +12,28 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DeleteFile extends HttpServlet {
     private FileServer fs = new FileServer();
     private final String UPLOAD_DIRECTORY="main/datas/yp";
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException,IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)throws ServletException,IOException {
+
+        Map map = new HashMap();
+        map.put("status","2");
+        map.put("data", "未知错误");
+
         String file = request.getParameter("file");
         String type = request.getParameter("type");
+
         String fid = "";
         char[] tfile = file.toCharArray();
         for(int i=0; i< tfile.length;i++){
             if (tfile[i] == '.')break;
             fid += tfile[i];
         }
+
         FileBean ff = null;
         try {
             ff = fs.GetFile(fid);
@@ -38,17 +48,25 @@ public class DeleteFile extends HttpServlet {
         }
 
         String path = getServletContext().getRealPath("/") + UPLOAD_DIRECTORY + "/" + ff.getUid() + "/" + ff.getFid() + ff.getType();
-        System.out.println(path);
+        //System.out.println(path);
         File fff = new File(path);
         if (fff.exists()){
             fff.delete();
+            map.put("status","1");
+            map.put("data","删除成功");
         }
-
+        else{
+            map.put("data","文件不存在");
+        }
+/*
         if (type.equals("2")){
             response.sendRedirect("/admin/index/file-list.jsp?del_sta=ok");
             return;
         }
-
-        response.sendRedirect("/main/datas");
+*/
+        mapTojson mtj = new mapTojson();
+        String json = mtj.write(map);
+        response.setContentType("text/html;charset=UTF-8");
+        response.getWriter().write(json);
     }
 }

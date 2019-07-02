@@ -11,32 +11,39 @@
 <head>
     <title>找回密码</title>
     <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="formStyle.css" type="text/css" rel="stylesheet">
     <script language="JavaScript" src="js2.js"></script>
 </head>
+
 <body>
-
-<div class="login" style="width: 300px;height: 250px;">
-    <h1>邮箱验证</h1>
-    <form method="post" action="/FindPwdServlet" style="height: 225px">
-        <input type="text" id="ee" name="email" placeholder="邮箱" required="required" />
-        <input type="text" name="num" placeholder="邮箱验证码" required="required" />
-        <input type="button" value="获取验证码" onclick="settime(this)" />
-        <input type="submit" class="btn btn-primary btn-block btn-large" value="确定">
-    </form>
-    <br/>
-        <%
-            String status = (String)session.getAttribute("find_status");
-            if (status != null){%>
-                <h4><%=status%></h4>
-        <%
-            }
-        %>
-</div>
 <div style="width: 70px;">
-    <a href="../" style="text-decoration: none;"><h1>返回</h1></a>
+    <a href="../" class="back"><h1>返回</h1></a>
 </div>
-<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>
-</body>
 
+<div class="login_wrap">
+    <h3>邮箱验证</h3>
+    <div class="login_border">
+        <div class="input">
+            <form class="form_for_login" style="height: 150px">
+                <ul class="items">
+                    <li>
+                        <input class="input_style" type="text" id="ee" name="email" placeholder="邮箱"/>
+                    </li>
+                    <li>
+                        <input class="input_style" type="text" id="num" name="num" placeholder="邮箱验证码"/>
+                    </li>
+                    <li>
+                        <input class="btn btn-primary" type="button" value="获取验证码" onclick="settime(this)" />
+                    </li>
+                    <li>
+                        <input type="button" id="btn-submit" class="btn btn-primary" value="确定">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../js/layer/layer.js"></script>
+<script src="../js/findpwd.js"></script>
 </html>

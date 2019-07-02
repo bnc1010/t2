@@ -149,4 +149,18 @@
         <url-pattern>/ChangeUserSta</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <display-name>CreateFolderServlet</display-name>
+        <servlet-name>CreateFolderServlet</servlet-name>
+        <servlet-class>Servlet.CreateFolderServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateFolderServlet</servlet-name>
+        <url-pattern>/CreateFolderServlet</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
