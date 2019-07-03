@@ -8,6 +8,7 @@ import Bean.UserBean;
 
 import java.io.File;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.util.UUID;
 
@@ -50,6 +51,38 @@ public class FileServer {
         dbBean.closeConnection();
         return ret;
     }
+
+
+    public ArrayList<FileBean> GetFiles(UserBean user, String fa) throws Exception{
+        ArrayList<FileBean> ret = new ArrayList<>();
+        dbBean.openConnection();
+        sql = "SELECT * from files where uid=? and fa=?";
+        Object [] paras = new Object[4];
+        paras[0] = user.getUid();
+        paras[1] = fa;
+        paras[2] = paras[3] = true;
+        ResultSet rs = dbBean.executeQuery(sql, 2, paras);
+        int pos = 0;
+        FileBean tp;
+        while (rs.next()){
+            tp = new FileBean();
+            tp.setFname(rs.getString("fname"));
+            tp.setFid(rs.getString("fid"));
+            tp.setUid(rs.getInt("uid"));
+            tp.setSubmit_t(rs.getString("submit_t"));
+            tp.setFa(fa);
+            tp.setIsdir(rs.getBoolean("type"));
+            tp.setSize(rs.getString("sz"));
+            if (!tp.getIsdir()){
+                String tmp = tp.getFname().substring(tp.getFname().lastIndexOf('.'));
+                tp.setType(tmp);
+            }
+            ret.add(tp);
+        }
+        dbBean.closeConnection();
+        return ret;
+    }
+
 
     public String FindFaFolder(String nowFolder)throws Exception{
         dbBean.openConnection();
@@ -96,8 +129,11 @@ public class FileServer {
             ret.setUid(rs.getInt("uid"));
             ret.setFname(rs.getString("fname"));
             ret.setSize(rs.getString("sz"));
-            String tmp = ret.getFname().substring(ret.getFname().lastIndexOf('.'));
-            ret.setType(tmp);
+            ret.setIsdir(rs.getBoolean("type"));
+            if (!ret.getIsdir()) {
+                String tmp = ret.getFname().substring(ret.getFname().lastIndexOf('.'));
+                ret.setType(tmp);
+            }
             ret.setSubmit_t(rs.getString("submit_t"));
             ret.setFa(rs.getString("fa"));
             ret.setIsdir(rs.getBoolean("type"));

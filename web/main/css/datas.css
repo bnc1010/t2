@@ -11,15 +11,15 @@
 
 .auto_div{
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     top: calc(50% - 250px);
     left: calc(50% - 250px);
     background-color: #6A6A6A;
     visibility: hidden;
-    border-radius: 20px;
-    padding-top: 50px;
-    padding-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
 }
 
 
@@ -168,3 +168,27 @@
 #table_files tr:nth-child(even):hover{
     background-color: #ffffec;
 }
+
+.music_player{
+    height: 200px;
+    top: calc(50% - 100px);
+}
+
+.video_player{
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+.video_player video{
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+}
+
+#view_div p{
+    margin-top: 2%;
+}
+
+

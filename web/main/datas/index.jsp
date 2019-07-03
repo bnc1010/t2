@@ -75,15 +75,22 @@
                 <td class="td_fname"><div class="td_content"><a href="<%="index.jsp?folderid=" + files[i].getFid()+ "&pageid=1"%>"><%=files[i].getFname()%></a></div></td>
                 <td class="td_sz"><div class="td_content"></div></td>
                 <td class="td_time"><div class="td_content"><%=files[i].getSubmit_t()%></div></td>
-                <td class="td_op"><div class="td_content"></div></td>
+                <td class="td_op"><div class="td_content"><a href="javascript:void(0)" onclick="del_folder('<%=files[i].getFid()%>', '<%=files[i].getFname()%>')">删除</a></div></td>
             </tr>
                 <%}
-                else{%>
+                else{
+                    String path="yp/" + files[i].getUid() + "/" + files[i].getFid() + files[i].getType();
+                %>
             <tr id="<%="trid" + i %>">
-                <td class="td_fname"><div class="td_content"><a href="<%= "yp/" + files[i].getUid() + "/" + files[i].getFid() + files[i].getType()%>" download="<%=files[i].getFname()%>"><%=files[i].getFname()%></a></div></td>
+                <td class="td_fname"><div class="td_content"><a href="javascript:void(0)" onclick="view('<%=path%>', '<%=files[i].getType()%>', '<%=files[i].getFname()%>')"><%=files[i].getFname()%></a></div></td>
                 <td class="td_sz"><div class="td_content"><%=files[i].getSize()%></div></td>
                 <td class="td_time"><div class="td_content"><%=files[i].getSubmit_t()%></div></td>
-                <td class="td_op"><div class="td_content"><a href="javascript:void(0)" onclick="del_file('<%=files[i].getFid()%>','<%=files[i].getFname()%>')">删除</a></div></td>
+                <td class="td_op">
+                    <div class="td_content">
+                        <a href="javascript:void(0)" onclick="del_file('<%=files[i].getFid()%>','<%=files[i].getFname()%>')">删除</a>
+                        <a href="<%= path%>" download="<%=files[i].getFname()%>">下载</a>
+                    </div>
+                </td>
             </tr>
             <% }
             }
@@ -112,10 +119,14 @@
             </ul>
         </div>
     </div>
+    <div class="hover_div" id="view_div_hover"></div>
+    <div class="auto_div" id="view_div"></div>
 </body>
 <script src="../../js/jquery-3.2.1.js"></script>
 <script src="../../js/layer/layer.js"></script>
 <script src="../../js/page.js"></script>
+<script src="../../js/yunpan.js"></script>
+<script src="../../js/viewfile.js"></script>
 <script type="text/javascript">
     $(function () {
         PagingManage($('#complete'),<%=pagecount%>, <%=pageid%>);
@@ -162,90 +173,5 @@
             });
         });
     });
-    var files;
-    function fileChange(fileInput) {
-        files = fileInput.files;
-        var tempHtml = "";
-        for (var i = 0; i < files.length; i++) {
-            var file = files[i];
-            tempHtml += "<ul>"
-                + "<li style='width: 30%'>"
-                + file.name
-                + "</li>"
-                + "<li style='width: 68%'><progress id='p"+i+"' max='100' value=''></progress><span id='sp"+i+"'>待上传</span></li></ul>";
-        }
-        document.getElementById("fileList").innerHTML += tempHtml;
-    }
-
-    function upload() {
-        if (files == null || files.length === 0){
-            layer.msg("未选择文件");
-            return;
-        }
-        for (var i =0 ; i < files.length; i++){
-            fileUpload(files[i], i);
-        }
-    }
-
-    function fileUpload(file, index) {
-        var formData = new FormData();
-        formData.append(file.name, file);
-        var xhr = new XMLHttpRequest();
-        var oldUploaded=0;
-        var curUploaded=0;
-        var total=0;
-        var percent=0;
-        xhr.upload.addEventListener("progress",function(event){
-            var loaded=event.loaded;
-            if(oldUploaded==0){
-                total=event.total;
-                oldUploaded=event.loaded;
-            }
-            curUploaded=event.loaded;
-            percent=Math.round(event.loaded/event.total*100);
-            document.getElementById("p"+index).value=percent;
-        });
-        var upSpeed=setInterval(function(){
-            if(oldUploaded!=0){
-                //得到的是一个byte值
-                var result=curUploaded-oldUploaded;
-                var leave=total-curUploaded;
-                var label=document.getElementById("sp"+index);
-                //console.log(percent);
-                if (percent == "100"){
-                    label.innerHTML="上传成功";
-                }
-                else {
-                    label.innerHTML=percent+"%&nbsp;&nbsp;"+Math.round(result/(1024*1024)*100)/100+"M/S&nbsp;&nbsp;剩余"+Math.round(leave/result)+"秒";
-                }
-                if(total==oldUploaded&&result==0){
-                    clearInterval(upSpeed);
-                }
-                oldUploaded=curUploaded;
-            }
-        },500);
-        xhr.open("post", "/UploadServlet", true);
-        xhr.send(formData);
-    }
-    function del_file(fid, fname) {
-            layer.confirm("确定删除文件\"" + fname + "\"",{
-                btn:['是', '否']},
-            function () {
-                $.ajax({
-                    type:"post",
-                    data:{"file":fid, "type":"1"},
-                    dataType: "json",
-                    url:"/DeleteFile",
-                    success:function (msg) {
-                        layer.msg(msg.data);
-                        setTimeout("window.location.reload()", "1000");
-                    }
-                });
-            },
-            function () {
-
-            }
-        );
-    }
 </script>
 </html>

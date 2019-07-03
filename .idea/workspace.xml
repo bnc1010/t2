@@ -9,19 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76d0732b-12c6-4684-b0bb-53d83bd8131c" name="Default" comment="重构云盘，添加文件夹功能，文件夹删除还未完成">
+      <change afterPath="$PROJECT_DIR$/web/js/viewfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/yunpan.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Bean/DbBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Bean/DbBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Bean/FileBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Bean/FileBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/t1/Server/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Server/FileServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Server/UserServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Server/UserServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/ChangePwdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/ChangePwdServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/DeleteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/DeleteFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForFindServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForFindServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForRegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/EmailForRegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/FindPwdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/FindPwdServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/t1/Servlet/UploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/t1/Servlet/UploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/FileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet/DeleteFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/DeleteFolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/fileupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/fileupload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/css/datas.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/css/datas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main/datas/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/datas/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +26,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -38,11 +49,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/main/datas/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="245" selection-start-line="245" selection-end-line="245" />
+            <state relative-caret-position="-110">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/yunpan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-763">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
               </folding>
@@ -50,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFolder.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/viewfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bean/DbBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -62,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+            <state relative-caret-position="1232">
+              <caret line="69" column="41" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -71,11 +98,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Servlet/UploadServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="286">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2923#2953#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,17 +109,13 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/fileupload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="1716">
               <caret line="86" column="41" selection-start-line="83" selection-start-column="8" selection-end-line="86" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/main/css/datas.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1583">
-              <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+            <state relative-caret-position="373">
+              <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/FileServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="410">
+              <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -154,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/admin/index/article-add.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/index/column-danye-detail.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/danye-detail.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/danye-list.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index/email-write.jsp" />
@@ -193,18 +213,20 @@
         <option value="$PROJECT_DIR$/src/Server/AdminServer.java" />
         <option value="$PROJECT_DIR$/web/admin/index/file-list.jsp" />
         <option value="$PROJECT_DIR$/web/login/index.jsp" />
-        <option value="$PROJECT_DIR$/src/Bean/DbBean.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/Servlet/CreateFolderServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/js/fileupload.js" />
         <option value="$PROJECT_DIR$/src/Servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/Servlet/UploadServlet.java" />
-        <option value="$PROJECT_DIR$/src/Server/FileServer.java" />
-        <option value="$PROJECT_DIR$/web/main/css/datas.css" />
         <option value="$PROJECT_DIR$/src/Servlet/DeleteFile.java" />
-        <option value="$PROJECT_DIR$/web/main/datas/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Servlet/DeleteFolder.java" />
+        <option value="$PROJECT_DIR$/src/Server/FileServer.java" />
+        <option value="$PROJECT_DIR$/web/js/fileupload.js" />
+        <option value="$PROJECT_DIR$/web/js/yunpan.js" />
+        <option value="$PROJECT_DIR$/src/Bean/DbBean.java" />
+        <option value="$PROJECT_DIR$/web/main/datas/index.jsp" />
+        <option value="$PROJECT_DIR$/web/js/viewfile.js" />
+        <option value="$PROJECT_DIR$/web/main/css/datas.css" />
       </list>
     </option>
   </component>
@@ -227,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,7 +266,7 @@
               <item name="t1" type="b2602c69:ProjectViewProjectNode" />
               <item name="t1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="Bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="t1" type="b2602c69:ProjectViewProjectNode" />
@@ -290,6 +311,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,12 +326,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/main/blog" />
       <recent name="$PROJECT_DIR$/web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -506,7 +528,8 @@
       <workItem from="1561976321596" duration="5139000" />
       <workItem from="1562028032732" duration="11753000" />
       <workItem from="1562040724812" duration="4586000" />
-      <workItem from="1562047320060" duration="14113000" />
+      <workItem from="1562047320060" duration="16748000" />
+      <workItem from="1562113559735" duration="9016000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1561295186844</created>
@@ -543,27 +566,34 @@
       <option name="project" value="LOCAL" />
       <updated>1562070464829</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="重构云盘，添加文件夹功能，文件夹删除还未完成">
+      <created>1562070599885</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562070599885</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252838000" />
+    <option name="totallyTimeSpent" value="264489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7669903" visible="true" weight="0.14323749" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76537216" visible="true" weight="0.14483494" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" id="Web" order="5" sideWeight="0.23300971" side_tool="true" visible="true" weight="0.14323749" />
+      <window_info id="Web" order="5" sideWeight="0.23462783" side_tool="true" visible="true" weight="0.14483494" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3487882" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3487882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,7 +601,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32982087" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -581,7 +611,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -591,24 +621,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
     <MESSAGE value="重构云盘，添加文件夹功能，文件夹删除还未完成" />
     <option name="LAST_COMMIT_MESSAGE" value="重构云盘，添加文件夹功能，文件夹删除还未完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/NumberFormatException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/admin/css/column.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/admin/css/css3.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -835,35 +863,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/DbBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/UploadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2923#2953#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,13 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/fileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/admin/css/admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -888,23 +884,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main/css/datas.css">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1583">
-          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+        <state relative-caret-position="594">
+          <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/FileServer.java">
+    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="1012">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="69" column="41" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servlet/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="1716">
           <caret line="86" column="41" selection-start-line="83" selection-start-column="8" selection-end-line="86" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -912,30 +925,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFile.java">
+    <entry file="file://$PROJECT_DIR$/web/js/fileupload.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/DbBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+        <state relative-caret-position="286">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/FileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main/datas/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        <state relative-caret-position="-110">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/yunpan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-763">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlet/DeleteFolder.java">
+    <entry file="file://$PROJECT_DIR$/web/js/viewfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main/css/datas.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
         </state>
       </provider>
     </entry>

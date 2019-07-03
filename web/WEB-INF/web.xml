@@ -161,6 +161,17 @@
         <url-pattern>/CreateFolderServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <display-name>DeleteFolder</display-name>
+        <servlet-name>DeleteFolder</servlet-name>
+        <servlet-class>Servlet.DeleteFolder</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteFolder</servlet-name>
+        <url-pattern>/DeleteFolder</url-pattern>
+    </servlet-mapping>
+
 
 
 </web-app>
