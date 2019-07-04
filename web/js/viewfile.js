@@ -8,6 +8,12 @@ $('#view_div_hover').click(function () {
     if (view_div.hasClass("video_player")) {
         view_div.removeClass("video_player");
     }
+    if (view_div.hasClass("picture_player")) {
+        view_div.removeClass("picture_player");
+    }
+    if (view_div.hasClass("un_support_box")) {
+        view_div.removeClass("un_support_box");
+    }
     $('#view_div_hover').css("visibility", "hidden");
 });
 
@@ -24,6 +30,16 @@ function view(path, type, name) {
     else if (type === ".mp4" || type ===".ogg" || type === ".webm"){
         view_div.addClass("video_player");
         content = "<p>正在播放" + name + "</p><video src=\"" + path + "\" controls autoplay>游览器兼容问题，播放失败</video>";
+        view_div.html(content);
+    }
+    else if (type === ".jpg" || type === ".jpeg" || type === "png" || type === "bmp" || type === "gif"){
+        view_div.addClass("picture_player");
+        content = "<p>正在播放" + name + "</p><img src=\"" + path + "\" alt='兼容问题，预览失败' />";
+        view_div.html(content);
+    }
+    else {
+        view_div.addClass("un_support_box");
+        content = "<p>暂不支持该类型文件预览</p>";
         view_div.html(content);
     }
 }

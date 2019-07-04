@@ -187,6 +187,25 @@
     object-fit: contain;
 }
 
+.picture_player{
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+.picture_player img{
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+.un_support_box{
+    height: 50px;
+    top: calc(50% - 25px);
+}
+
 #view_div p{
     margin-top: 2%;
 }
