@@ -14,42 +14,21 @@
 <html>
 <head>
     <%
-        user = (UserBean) session.getAttribute("User");
-        if (user == null){
-            user = new UserBean();
-            user.setUserName("未登录");
-            response.sendRedirect("/");
-        }
         FileServer fs = new FileServer();
         String aid = request.getParameter("aid");
-        String type = request.getParameter("type");
         BlogBean artical = fs.getArtical(aid);
         String path = "../datas/blog/" + artical.getUid() + "/" + artical.getAid() + ".md";
         UserServer us = new UserServer();
     %>
     <title><%=artical.getAname()%></title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/md_editor/css/editormd.css" />
+    <link rel="stylesheet" href="../../md_editor/css/editormd.css" />
     <link rel="stylesheet" href="css/reader.css">
 </head>
 <body>
-<%
-    if (type.equals("1")){%>
-    <a href="myarticals.jsp">返回</a>
-    <%}
-    else if(type.equals("2")){%>
-    <a href="./">返回</a>
-    <%}
-    else{%>
-    <a href="../../admin/index/article-list.jsp">返回</a>
-    <%}
-%>
+<a href="../../login/">返回</a>
 <br/>
-<%
-    if (aid != null && us.JudgeAuthor(user, aid)){%>
-        <a href="editor.jsp?artical=<%=artical.getAname()%>&aid=<%=aid%>">编辑</a>
-    <%}
-%>
+
 <div id="layout">
     <header>
     </header>
