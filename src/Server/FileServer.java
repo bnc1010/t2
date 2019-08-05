@@ -256,12 +256,12 @@ public class FileServer {
 
 
     public BlogBean[] GetPublicArticals(int index) throws Exception{
-        BlogBean [] ret = new BlogBean[11];
+        BlogBean [] ret = new BlogBean[7];
         dbBean.openConnection();
         sql = "SELECT aid,aname,articals.last_t,uid,name from articals,users where self=1 and users.id=articals.uid limit ?, ?";
         Object [] paras = new Object[4];
-        paras[0] = (index-1)*10;
-        paras[1] = 10;
+        paras[0] = (index-1)*7;
+        paras[1] = 7;
         paras[2] = paras[3] = false;
         ResultSet rs = dbBean.executeQuery(sql, 2, paras);
         int pos = 0;
@@ -276,6 +276,18 @@ public class FileServer {
         }
         dbBean.closeConnection();
         return ret;
+    }
+
+    public int GetPublicArticleCount(int index) throws Exception{
+        int ret = 0;
+        dbBean.openConnection();
+        sql = "SELECT count(*) from articals where self=1 ";
+        ResultSet rs = dbBean.executeQuery(sql, 0);
+        if (rs.next()){
+            ret = rs.getInt("count(*)");
+        }
+        dbBean.closeConnection();
+        return (ret - 1) / 7 + 1;
     }
 
     public boolean VisitBlog(BlogBean blog) throws Exception {

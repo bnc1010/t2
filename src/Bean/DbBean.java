@@ -17,7 +17,7 @@ public class DbBean {
     public void openConnection() throws Exception{
         String driver = "com.mysql.jdbc.Driver";
         Class.forName(driver);
-            String url="jdbc:mysql://127.0.0.1:3306/htmluser?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&characterEncoding=UTF-8";
+            String url="jdbc:mysql://101.132.160.250:3306/htmluser?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&characterEncoding=UTF-8";
         String user="bnc";
         String pwd="ze!15958231764";
         conn= DriverManager.getConnection(url, user, pwd);

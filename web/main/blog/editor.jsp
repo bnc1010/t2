@@ -36,7 +36,7 @@
     <form action="/UploadBlog" method="post">
         <input type="submit" name="submit" value="发表" class="btn" style="margin-left: 5%;" />
         <input type="text" name="aname" value="<%=artical.getAname()%>" required="required" placeholder="文章名">
-        <h4>是否公开：</h4><input type="checkbox" name="self">
+        <small>是否公开：</small><input type="checkbox" name="self">
         <div class="editormd" id="test-editormd">
             <textarea name="md_source">
 </textarea>

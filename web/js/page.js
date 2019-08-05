@@ -11,6 +11,9 @@ function PagingManage(obj, pageCount, currentPage) {
         var currentpage = currentPage;//当前页面
         var showPageNum = 6;//显示多少个页码
 
+        alert(pagecount);
+        alert(currentpage);
+
         var pagehtml = "";
         var divId = "" + obj.attr('id');
 
