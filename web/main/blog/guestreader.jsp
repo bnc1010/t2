@@ -18,7 +18,6 @@
         String aid = request.getParameter("aid");
         BlogBean artical = fs.getArtical(aid);
         String path = "../datas/blog/" + artical.getUid() + "/" + artical.getAid() + ".md";
-        UserServer us = new UserServer();
     %>
     <title><%=artical.getAname()%></title>
     <link rel="stylesheet" href="css/style.css" />
@@ -26,7 +25,7 @@
     <link rel="stylesheet" href="css/reader.css">
 </head>
 <body>
-<a href="../../login/">返回</a>
+<a href="../../">返回</a>
 <br/>
 
 <div id="layout">
@@ -89,7 +88,7 @@
             taskList        : true,
             tex             : true,  // 默认不解析
             flowChart       : true,  // 默认不解析
-            sequenceDiagram : true,  // 默认不解析
+            sequenceDiagram : true  // 默认不解析
         });
     });
 </script>

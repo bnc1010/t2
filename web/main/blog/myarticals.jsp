@@ -36,6 +36,7 @@
         }
 
     %>
+    <link rel="stylesheet" href="css/myartical.css">
     <title>我的文章</title>
 </head>
 <body>
@@ -43,8 +44,9 @@
 <%
     for(int i=0;i<n;i++){
 %>
-<a href="reader.jsp?aid=<%=files[i].getAid()%>&type=1"><%=files[i].getAname()%></a>&emsp;&emsp;&emsp;&emsp;
-<a href="/DeleteBlog?aid=<%=files[i].getAid()%>">删除</a>
+<a href="reader.jsp?aid=<%=files[i].getAid()%>&type=1"><%=files[i].getAname()%></a>&emsp;&emsp;
+<a href="../../DeleteBlog?aid=<%=files[i].getAid()%>">删除</a>
+<a href="javascript:void(0)" onclick="sharebolg('<%=files[i].getAid()%>')">分享</a>
 <br/>
 <%
     }
@@ -71,7 +73,25 @@
     <a>下一页</a>
     <%
         }
-%>
-
+    %>
+    <div class="hover_div" id="view_div_hover"></div>
+    <div class="auto_div" id="view_div"></div>
+    <script src="../../js/layer/layer.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script>
+        function sharebolg(aid) {
+            $('#view_div_hover').css("visibility", "visible");
+            ct = '<p>链接：' + 'missyy.club/main/blog/guestreader.jsp?aid=' + aid + '</p>';
+            var view_div = $('#view_div');
+            view_div.html(ct);
+            view_div.css("visibility", "visible");
+        }
+        $('#view_div_hover').click(function () {
+            var view_div = $('#view_div');
+            view_div.html('');
+            view_div.css("visibility", "hidden");
+            $('#view_div_hover').css("visibility", "hidden");
+        })
+    </script>
 </body>
 </html>
